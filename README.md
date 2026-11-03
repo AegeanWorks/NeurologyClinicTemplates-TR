@@ -62,6 +62,11 @@ For each neurological complaint, there are two types of files:
 *   **Parkinson's Disease:** `ParkinsonHastalığı.txt` & `ParkinsonHastalığı_Açıklama.md`
 *   **Syncope / Seizure / Epilepsy Differential:** `Senkop-Nöbet-Epilepsi-Ön-Tanı.txt` & `Senkop-Nöbet-Epilepsi-Ön-Tanı_Açıklama.md`
 
+### Consultation Notes
+
+*   **LP Eligibility and Recommendations:** `LP-Uygunluk-ve-Öneriler-Notu.txt`
+*   **Pre-Operative Post-Ischemic-Stroke Prophylactic Ecopirin Cessation Note:** `Pre-Operatif-İskemik-İnme-Sonrası-Proflaktik-Ecopirin-Tedavisi-Kesilmesine-Dair.txt`
+
 ## How to Use
 
 *   **In Clinical Practice:** You can take a quick and complete history by copying the content of the relevant `.txt` file and pasting it into your patient record system.

@@ -36,6 +36,12 @@ class TemplateIntegrityTests(unittest.TestCase):
             with self.subTest(template=path.name):
                 self.assertTrue((path.parent / f"{path.stem}{EXPLANATION_SUFFIX}").is_file())
 
+    def test_consultation_notes_documented_in_readme(self):
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        for path in sorted((ROOT / "ConsultationNotes").glob("*.txt")):
+            with self.subTest(note=path.name):
+                self.assertIn(path.name, readme)
+
     def test_readme_references_existing_files(self):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
         available = {path.name for name in TEMPLATE_DIRS

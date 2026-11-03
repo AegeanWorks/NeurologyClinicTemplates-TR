@@ -1,60 +1,17 @@
 {
   "version": 1,
   "active_task": {
-    "task_id": "reforge:run-1",
-    "last_phase": "resumed",
+    "task_id": "audit-waves-0-30",
+    "last_phase": "phase 4",
     "active_phase": 5,
     "status": "completed",
-    "updated_at": 1793292932.3478446,
-    "owner": "opencode",
-    "started_by": "opencode",
+    "updated_at": 1793722814.5616815,
+    "owner": "kilo:audit",
+    "started_by": "kilo:audit",
     "continuations": [],
-    "completed_at": 1793292936.970423
+    "completed_at": 1793722837.2813816
   },
   "checkpoints": [
-    {
-      "task_id": "reforge:run-1",
-      "phase": "reforge stage 2",
-      "phase_num": 3,
-      "description": "Reforge stage 2: window 6, 3 commit(s), 2 file(s) reviewed (unreviewed), 0 finding(s), 0 repaired, 1 binary not analysed",
-      "files_affected": [
-        "assets/social-preview.png"
-      ],
-      "status": "in_progress",
-      "timestamp": 1793291791.5657814,
-      "timestamp_str": "2026-10-29 19:36:31",
-      "agent": "opencode"
-    },
-    {
-      "task_id": "reforge:run-1",
-      "phase": "reforge stage 3",
-      "phase_num": 3,
-      "description": "Reforge stage 3: window 9, 3 commit(s), 2 file(s) reviewed (unreviewed), 0 finding(s), 0 repaired, 5 binary not analysed",
-      "files_affected": [
-        "assets/artwork.jpg",
-        "assets/logo.jpg",
-        "assets/logo.png",
-        "assets/social-preview.jpg",
-        "assets/social-preview.png"
-      ],
-      "status": "in_progress",
-      "timestamp": 1793291813.9735157,
-      "timestamp_str": "2026-10-29 19:36:53",
-      "agent": "opencode"
-    },
-    {
-      "task_id": "reforge:run-1",
-      "phase": "reforge stage 4",
-      "phase_num": 3,
-      "description": "Reforge stage 4: window 12, 3 commit(s), 3 file(s) reviewed (unreviewed), 0 finding(s), 0 repaired, 1 binary not analysed",
-      "files_affected": [
-        "assets/social-preview.png"
-      ],
-      "status": "in_progress",
-      "timestamp": 1793291844.9421794,
-      "timestamp_str": "2026-10-29 19:37:24",
-      "agent": "opencode"
-    },
     {
       "task_id": "reforge:run-1",
       "phase": "reforge stage 5",
@@ -247,6 +204,45 @@
       "timestamp": 1793292936.9704266,
       "timestamp_str": "2026-10-29 19:55:36",
       "agent": "opencode"
+    },
+    {
+      "task_id": "audit-waves-0-30",
+      "phase": "phase 2",
+      "phase_num": 2,
+      "description": "[1/1] Document ConsultationNotes in README with pairing regression test",
+      "files_affected": [],
+      "status": "in_progress",
+      "timestamp": 1793722747.714046,
+      "timestamp_str": "2026-11-03 19:19:07",
+      "agent": "kilo:audit",
+      "impact_assessment": {
+        "why": "ConsultationNotes notes added in wave 10 are undiscoverable: README enumerates 11 Anamnesis pairs but 0 of 2 consultation notes",
+        "benefits": "Clinicians can discover LP and pre-op stroke notes; regression test prevents re-omission",
+        "risks": "contract: none; dependency: none; concurrency: none; state: clean tree, docs+test only",
+        "mitigation": "Failing-first test, run project tests plus aikit check, explicit staging, no push"
+      },
+      "plan_digest": "aa4e3616636103ec7f4cfb73bc738bad6c2ad1fe49b70baf24d0d8c0337d1387"
+    },
+    {
+      "task_id": "audit-waves-0-30",
+      "phase": "phase 4",
+      "phase_num": 4,
+      "description": "[1/1] Verification: tests 6 pass; aikit check 4/4; checklists: passed",
+      "files_affected": [],
+      "status": "in_progress",
+      "timestamp": 1793722814.5616815,
+      "timestamp_str": "2026-11-03 19:20:14",
+      "agent": "kilo:audit"
+    },
+    {
+      "task_id": "audit-waves-0-30",
+      "phase": "completed",
+      "phase_num": 5,
+      "description": "Task 'audit-waves-0-30' completed successfully.",
+      "status": "completed",
+      "timestamp": 1793722837.2813835,
+      "timestamp_str": "2026-11-03 19:20:37",
+      "agent": "kilo:audit"
     }
   ]
 }
