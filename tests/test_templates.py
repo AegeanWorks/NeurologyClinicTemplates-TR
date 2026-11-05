@@ -52,6 +52,41 @@ class TemplateIntegrityTests(unittest.TestCase):
             with self.subTest(reference=name):
                 self.assertIn(name, available)
 
+    def test_txt_files_end_with_newline_and_no_leading_blank(self):
+        for name in TEMPLATE_DIRS:
+            for path in sorted((ROOT / name).glob("*.txt")):
+                with self.subTest(template=path.name):
+                    raw = path.read_bytes()
+                    text = raw.decode("utf-8")
+                    self.assertTrue(text.endswith("\n"), "missing trailing newline")
+                    self.assertFalse(text.startswith((" ", "\n", "\r")),
+                                     "leading blank/space")
+
+    def test_no_known_orthography_regressions(self):
+        banned = ("SEMBOLLER", "KOAGLÜ", "TEDAVİSİN KESİLMESİ",
+                  "C+V", "ALERT OLUNMASI")
+        for name in TEMPLATE_DIRS:
+            for path in sorted((ROOT / name).glob("*.txt")):
+                with self.subTest(template=path.name):
+                    text = path.read_text(encoding="utf-8")
+                    for token in banned:
+                        self.assertNotIn(token, text)
+
+    def test_no_hardcoded_prescription_in_anamnesis(self):
+        for path in sorted((ROOT / "Anamnesis").glob("*.txt")):
+            with self.subTest(template=path.name):
+                text = path.read_text(encoding="utf-8")
+                self.assertNotIn("REÇETE EDİLDİ", text)
+
+    def test_no_double_dash_bullets(self):
+        for name in TEMPLATE_DIRS:
+            for path in sorted((ROOT / name).glob("*.txt")):
+                with self.subTest(template=path.name):
+                    for i, line in enumerate(
+                            path.read_text(encoding="utf-8").splitlines(), 1):
+                        self.assertFalse(line.lstrip().startswith("- -"),
+                                         f"{path.name}:{i}")
+
 
 if __name__ == "__main__":
     unittest.main()

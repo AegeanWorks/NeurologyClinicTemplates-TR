@@ -124,6 +124,24 @@ Adet döneminde veya çevresinde ortaya çıkan baş ağrıları "Menstrüel Mig
 
 ---
 
+### 50 YAŞ ÜSTÜ YENİ BAŞLANGIÇTA DEV HÜCRELİ ARTERİT TARAMASI
+
+50 yaş üstü yeni başlayan baş ağrısında dev hücreli arterit (GCA) dışlanmalıdır; SNOOP-O (older age) bu grubu kırmızı bayrak olarak işaretler.
+
+**TEMPORAL ARTER HASSASİYETİ / NABIZ :**
+Temporal arterde hassasiyet, kalınlaşma veya nabız azalması GCA için tipik muayene bulgusudur. Pozitif bulgu temporal arter biyopsisi ve acil steroid kararı için romatoloji/nöroloji yönlendirmesini gerektirir.
+
+**ÇENE KLADİKASYOSU (ÇİĞNEME İLE ÇENE AĞRISI) :**
+Çiğneme ile ortaya çıkan çene ağrısı/yorgunluğu, çiğneme kaslarının iskemisine bağlıdır ve GCA için yüksek özgüllüklü bir semptomdur.
+
+**GÖRME KAYBI / AMOROZİS FUGAİKS :**
+Geçici veya kalıcı görme kaybı, anterior iskemik optik nöropatiye bağlı acil bir komplikasyondur. Varlığında görme kalıcı kaybedilmeden hızlı değerlendirme gerekir.
+
+**ESR / CRP :**
+Eritrosit sedimantasyon hızı ve C-reaktif protein genellikle yükselir; normal değerler GCA'yı tek başına dışlamaz, klinik şüphe yüksekse ileri değerlendirme sürdürülür.
+
+---
+
 ### FİZİK MUAYENE
 
 Bu bölüm, anamnezi tamamlayan ve ikincil baş ağrısı nedenlerini dışlamaya yönelik fiziksel bulguları içerir.
