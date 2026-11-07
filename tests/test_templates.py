@@ -87,6 +87,44 @@ class TemplateIntegrityTests(unittest.TestCase):
                         self.assertFalse(line.lstrip().startswith("- -"),
                                          f"{path.name}:{i}")
 
+    def test_every_explanation_lists_sources(self):
+        for path in sorted((ROOT / "Anamnesis").glob(f"*{EXPLANATION_SUFFIX}")):
+            with self.subTest(explanation=path.name):
+                text = path.read_text(encoding="utf-8")
+                self.assertIn("## KAYNAKLAR", text)
+                sources = [line for line in text.splitlines() if line.startswith("* ")]
+                self.assertGreaterEqual(len(sources), 2, "at least two key sources")
+
+    def test_lp_note_uses_evidence_based_aftercare(self):
+        text = (ROOT / "ConsultationNotes" / "LP-Uygunluk-ve-Öneriler-Notu.txt").read_text(
+            encoding="utf-8")
+        self.assertNotIn("2–4 SAAT SUPİN", text)
+        self.assertIn("ERKEN MOBİLİZASYON", text)
+        self.assertIn("EPİDURAL KAN YAMASI", text)
+
+    def test_high_risk_followups_include_safety_fields(self):
+        epilepsy = (ROOT / "Anamnesis" / "EpilepsiTakip.txt").read_text(encoding="utf-8")
+        self.assertIn("SÜRÜCÜLÜK / İŞ GÜVENLİĞİ", epilepsy)
+        self.assertIn("GEBELİK / EMZİRME / GEBELİK PLANI", epilepsy)
+        ms = (ROOT / "Anamnesis" / "MultiplSkleroz-OptikNörit-Ön-Tanı.txt").read_text(
+            encoding="utf-8")
+        self.assertIn("OCT", ms)
+        self.assertIn("AQP4-IgG", ms)
+        hbs = (ROOT / "Anamnesis" / "HBS.txt").read_text(encoding="utf-8")
+        self.assertIn("TRANSFERRİN SATÜRASYONU", hbs)
+
+    def test_clinical_claims_stay_within_evidence(self):
+        headache = (ROOT / "Anamnesis" / "BaşAğrısı_Açıklama.md").read_text(encoding="utf-8")
+        self.assertNotIn("tanı koydurucu niteliktedir", headache)
+        self.assertNotIn("acil ileri tetkik (genellikle beyin görüntülemesi) gerektirir",
+                         headache)
+        optic = (ROOT / "Anamnesis" /
+                 "MultiplSkleroz-OptikNörit-Ön-Tanı_Açıklama.md").read_text(encoding="utf-8")
+        self.assertIn("Santral skotom tipik optik nöritte sık görülür", optic)
+        tremor = (ROOT / "Anamnesis" / "EsansiyelTremor_Açıklama.md").read_text(
+            encoding="utf-8")
+        self.assertNotIn("DİDERAL", tremor)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -111,3 +111,11 @@ Anemi, enfeksiyon, elektrolit bozuklukları, tiroid fonksiyon bozuklukları gibi
 
 **BEYİN MRG :**
 Yukarıda belirtilen "kırmızı bayrak" bulgularından herhangi biri varsa veya muayenede santral bir patolojiden şüpheleniliyorsa, altta yatan inme, tümör, MS gibi yapısal beyin hastalıklarını dışlamak için altın standart görüntüleme yöntemidir.
+
+---
+
+## KAYNAKLAR
+
+* Kattah JC, Talkad AV, Wang DZ, Hsieh YH, Newman-Toker DE. HINTS to diagnose stroke in the acute vestibular syndrome. *Stroke*. 2009;40(11):3504-3510.
+* Bhattacharyya N, Gubbels SP, Schwartz SR, et al. Clinical practice guideline: benign paroxysmal positional vertigo (update). *Otolaryngology–Head and Neck Surgery*. 2017;156(3_suppl):S1-S47.
+* Lempert T, Olesen J, Furman J, et al. Vestibular migraine: diagnostic criteria. *Journal of Vestibular Research*. 2012;22(4):167-172.

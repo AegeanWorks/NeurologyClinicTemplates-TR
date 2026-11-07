@@ -45,7 +45,7 @@ Dopamin agonistleri ve nadiren levodopa, kumar, alışveriş, hiperseksüalite v
 ## İLAÇ YANITI VE TEDAVİ ÖYKÜSÜ
 
 **LEVODOPA YANITI :**
-Belirgin ve sürekli levodopa yanıtı Parkinson hastalığını destekler. Yanıtın hiç olmaması veya çok kısa sürmesi atipik parkinsonizm açısından araştırılmalıdır.
+Belirgin levodopa yanıtı Parkinson hastalığını destekler. Yanıtın hiç olmaması veya çok kısa sürmesi atipik parkinsonizm açısından araştırılmalıdır.
 
 **DİSKİNEZİ / WEARING-OFF / İLAÇ SAATLERİ / DOZ ARALIĞI :**
 Hastalığın ilerlemesiyle levodopanın etki süresi kısalır (wearing-off) ve doz alımıyla ilişkili diskineziler ortaya çıkar. İlaç saatleri, doz aralığı, öğünlerle ilişkisi ve uyum ayrıntılı kaydedilmelidir. Bu bilgiler, tedavi düzenlemesi ve ileri tedavi seçeneklerinin (DBS, apomorfin, levodopa-karbidopa intestinal jel) değerlendirilmesi için gereklidir.

@@ -1,3 +1,5 @@
+# Demans Anamnez Sorularının Açıklamaları
+
 Bu doküman, `Demans.txt` şablonunda yer alan soruların, muayene bulgularının ve planlama adımlarının klinik önemini detaylı bir şekilde açıklamaktadır. Amacı, unutkanlık ve bilişsel bozukluk şikayetiyle başvuran hastalara yaklaşımı standartlaştırmak ve ayırıcı tanı sürecine rehberlik etmektir.
 
 ---
@@ -89,6 +91,7 @@ Demans hastaları genellikle kendi bilişsel eksikliklerinin farkında değildir
 
  **RUTİN KAN TETKİKLERİ:**
  **Demansın geri döndürülebilir nedenlerini dışlamak için yapılması zorunludur.**
+ *   **Tam kan sayımı, glikoz, böbrek/karaciğer fonksiyonları ve kalsiyum:** Anemi, hipoglisemi, üremi, karaciğer yetmezliği ve hiperkalsemi gibi bilişsel bozukluk yapabilen sistemik durumları dışlar.
  *   **B12, Folat:** Eksiklikleri demansı taklit eden bilişsel bozukluk yapabilir.
  *   **TSH:** Hipotiroidi (tiroid bezinin az çalışması) tedavi edilebilir bir demans nedenidir.
  *   **VDRL:** Nörosifiliz (beyin frengisi) adı verilen ve tedavi edilebilir bir demans nedenini dışlamak için istenir.
@@ -97,3 +100,11 @@ Demans hastaları genellikle kendi bilişsel eksikliklerinin farkında değildir
  **AYIRICI TANI / ATİPİK VAKALARDA İLERİ TETKİKLER:**
  *   **Detaylı Nöropsikolojik Değerlendirme:** Bilişsel bozukluğun profilini (hangi alanların ne kadar etkilendiğini) detaylı olarak ortaya koyar. Erken evre veya atipik vakalarda tanı için çok değerlidir.
  *   **BOS (Beyin Omurilik Sıvısı) İncelemesi:** Alzheimer hastalığının biyobelirteçleri olan **Amiloid-beta 42 (düşük), Total-Tau (yüksek) ve Fosforile-Tau (yüksek)** seviyelerini ölçmek, tanıyı biyolojik olarak doğrulamak için kullanılır.
+
+---
+
+## KAYNAKLAR
+
+* McKhann GM, Knopman DS, Chertkow H, et al. The diagnosis of dementia due to Alzheimer's disease: recommendations from the National Institute on Aging-Alzheimer's Association workgroups. *Alzheimer's & Dementia*. 2011;7(3):263-269.
+* NICE. Dementia: assessment, management and support for people living with dementia and their carers (NG97). 2018 (güncelleme 2023).
+* McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: fourth consensus report of the DLB Consortium. *Neurology*. 2017;89(1):88-100.

@@ -51,7 +51,7 @@ Tek taraflı çınlama, progresif işitme kaybı ile birlikteyse, Vestibüler Sc
 Postural hipotansiyon belirtisi olabileceği gibi, düşük kafa içi basıncı gibi durumlarla da ilişkili olabilir.
 
 **OTONOMİK BULGULAR (BURUN AKINTISI, GÖZ YAŞI, vb.) :**
-Ağrıyla aynı tarafta gözde yaşarma, kızarıklık, burun akıntısı/tıkanıklığı gibi belirtiler "Trigeminal Otonomik Sefaljiler" (örn. Küme Baş Ağrısı) için tanı koydurucu niteliktedir. Bu bulguların ağrıyla aynı tarafta (ipsilateral) olması tanısal açıdan kritiktir ve bu ağrıya genellikle şiddetli bir ajitasyon (hastanın yerinde duramaması) eşlik eder.
+Ağrıyla aynı tarafta gözde yaşarma, kızarıklık, burun akıntısı/tıkanıklığı gibi belirtiler "Trigeminal Otonomik Sefaljiler" (örn. Küme Baş Ağrısı) için güçlü tanısal ipuçlarıdır; kesin tanı ICHD-3 atak ölçütleriyle doğrulanmalıdır. Bu bulguların ağrıyla aynı tarafta (ipsilateral) olması tanısal açıdan kritiktir ve bu ağrıya genellikle şiddetli bir ajitasyon (hastanın yerinde duramaması) eşlik eder.
 
 **GÖRME BULANIKLIĞI / BULANTI / KUSMA :**
 Bu belirtiler, migrenin en sık eşlikçileridir. Özellikle bulantı ve kusma, ağrının şiddeti hakkında da fikir verir. Görme bulanıklığı aynı zamanda kafa içi basınç artışının bir belirtisi de olabilir.
@@ -64,7 +64,7 @@ Gerilim tipi baş ağrısında ise fotofobi veya fonofobiden sadece biri bulunab
 
 ### 🔴 KIRMIZI BAYRAKLAR (SNOOP MNEMONIC)
 
-Baş ağrısı değerlendirmesinde ikincil ve tehlikeli nedenleri dışlamak için kullanılan bir tarama aracıdır. Bu maddelerden birinin varlığı, acil ileri tetkik (genellikle beyin görüntülemesi) gerektirir.
+Baş ağrısı değerlendirmesinde ikincil ve tehlikeli nedenleri dışlamak için kullanılan bir tarama aracıdır. Bu maddelerden birinin varlığı, ikincil nedenler açısından hızlı değerlendirme gerektirir; tetkik seçimi (görüntüleme, ESR/CRP, damar görüntülemesi vb.) klinik tabloya göre belirlenir.
 
 *   **S (Systemic Symptoms):** Ateş, kilo kaybı gibi sistemik hastalık belirtileri veya altta yatan kanser, HIV gibi bir durumun olması.
 *   **N (Neurologic Deficits):** Ağrıya eşlik eden güçsüzlük, duyu kaybı, bilinç değişikliği, papilödem gibi fokal nörolojik bulgular.
@@ -151,3 +151,11 @@ Boyundan kaynaklanan (servikojenik) baş ağrılarını ve sinir kökü basılar
 
 **NÖROLOJİK MUAYENE :**
 Kranial sinirler, motor sistem, duyu, refleksler ve koordinasyonun değerlendirilmesidir. Anamnezde şüphelenilen veya gözden kaçan nörolojik bir problemi (tümör, inme, vb.) tespit etmeyi veya dışlamayı amaçlar. Normal bir muayene, birincil baş ağrısı tanısını güçlendirir.
+
+---
+
+## KAYNAKLAR
+
+* Headache Classification Committee of the International Headache Society (IHS). The International Classification of Headache Disorders, 3rd edition. *Cephalalgia*. 2018;38(1):1-211.
+* Do TP, Remmers A, Schytz HW, et al. Red and orange flags for secondary headaches in clinical practice: SNNOOP10 list. *Neurology*. 2019;92(3):134-144.
+* Ashina M. Migraine. *New England Journal of Medicine*. 2020;383(19):1866-1876.

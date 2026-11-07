@@ -10,7 +10,7 @@ This project provides standardized anamnesis (patient history) templates for com
 
 ## 30-Second Cold-Start Quick Reference
 
-- **Runtime Prerequisites**: None; 0 runtime dependencies, any text editor or Markdown viewer is enough (Python 3 is not required).
+- **Runtime Prerequisites**: None to use the templates; 0 runtime dependencies, any text editor or Markdown viewer is enough. Running the regression tests requires Python 3.13+ (the AIKit workspace floor).
 - **Canonical Regression Shield Gate**:
   ```bash
   python aikit.py check NeurologyClinicTemplates-TR

@@ -57,7 +57,7 @@ Tiroid fonksiyon testleri, B12, elektrolitler ve glisemi tremorun metabolik nede
 
 ## TEDAVİ ÇERÇEVESİ
 
-**DİDERAL (PROPRANOLOL) VE DİĞER TEDAVİLER :**
+**PROPRANOLOL VE DİĞER TEDAVİLER :**
 Propranolol ve primidon ET'de birinci basamak tedavilerdir; topiramat, gabapentin ve alprazolam seçenekler arasındadır. Baş veya ses tremoru için botulinum toksin enjeksiyonu denenebilir. İlaç tedavisine yanıt vermeyen ve işlev kaybı belirgin olan hastalarda derin beyin stimülasyonu (DBS) veya talamotomi düşünülebilir. Tedavi seçimi, hastanın yaşı, komorbiditeleri ve tremorun işlevsel etkisine göre bireyselleştirilmelidir.
 
 ---

@@ -1,41 +1,16 @@
 {
   "version": 1,
   "active_task": {
-    "task_id": "audit-waves-0-30",
-    "last_phase": "phase 4",
-    "active_phase": 5,
-    "status": "completed",
-    "updated_at": 1793722814.5616815,
-    "owner": "kilo:audit",
-    "started_by": "kilo:audit",
-    "continuations": [],
-    "completed_at": 1793722837.2813816
+    "task_id": "neurology-audit-1-to-end",
+    "last_phase": "verification",
+    "active_phase": 4,
+    "status": "in_progress",
+    "updated_at": 1794084964.0094419,
+    "owner": "deepseek:goal",
+    "started_by": "deepseek:goal",
+    "continuations": []
   },
   "checkpoints": [
-    {
-      "task_id": "reforge:run-1",
-      "phase": "reforge stage 5",
-      "phase_num": 3,
-      "description": "Reforge stage 5: window 15, 3 commit(s), 10 file(s) reviewed (unreviewed), 0 finding(s), 0 repaired, 1 binary not analysed",
-      "files_affected": [
-        "assets/social-preview.png"
-      ],
-      "status": "in_progress",
-      "timestamp": 1793291875.0593848,
-      "timestamp_str": "2026-10-29 19:37:55",
-      "agent": "opencode"
-    },
-    {
-      "task_id": "reforge:run-1",
-      "phase": "reforge stage 6",
-      "phase_num": 3,
-      "description": "Reforge stage 6: window 18, 3 commit(s), 3 file(s) reviewed (unreviewed), 0 finding(s), 0 repaired",
-      "files_affected": [],
-      "status": "in_progress",
-      "timestamp": 1793291941.1156406,
-      "timestamp_str": "2026-10-29 19:39:01",
-      "agent": "opencode"
-    },
     {
       "task_id": "reforge:run-1",
       "phase": "reforge stage 7",
@@ -243,6 +218,35 @@
       "timestamp": 1793722837.2813835,
       "timestamp_str": "2026-11-03 19:20:37",
       "agent": "kilo:audit"
+    },
+    {
+      "task_id": "neurology-audit-1-to-end",
+      "phase": "planning",
+      "phase_num": 2,
+      "description": "[1/3] Audit NeurologyClinicTemplates-TR push windows 1->3 through 1->End, fix evidence-backed gaps, and push",
+      "files_affected": [],
+      "status": "in_progress",
+      "timestamp": 1794084655.5935693,
+      "timestamp_str": "2026-11-07 23:50:55",
+      "agent": "deepseek:goal",
+      "impact_assessment": {
+        "why": "The active goal asks for cumulative push-to-push verification ending at the first commit; prior reforge run-1 covered the newest 45 commits but the last five pushes and several clinical-safety gaps are unaudited.",
+        "benefits": "Every commit in the 50-commit history is covered, latent clinical wording and documentation defects are repaired, and the project ships with regression pins.",
+        "risks": "contract: test command and README contract unchanged; dependency: none; concurrency: none; state: project ledger and generated codebase map move with the fixes",
+        "mitigation": "Review current HEAD against each window, run the unittest suite and all four AIKit project gates, stage explicitly, and push only after the commit verifies alone."
+      },
+      "plan_digest": "b2c8f1f117165cf4850509a42604c44fada3da069c3d2a1fd780c5a965b52455"
+    },
+    {
+      "task_id": "neurology-audit-1-to-end",
+      "phase": "verification",
+      "phase_num": 4,
+      "description": "[2/3] Final window audited; 14 unit tests pass; aikit check 4/4; checklists: passed",
+      "files_affected": [],
+      "status": "in_progress",
+      "timestamp": 1794084964.0094419,
+      "timestamp_str": "2026-11-07 23:56:04",
+      "agent": "deepseek:goal"
     }
   ]
 }

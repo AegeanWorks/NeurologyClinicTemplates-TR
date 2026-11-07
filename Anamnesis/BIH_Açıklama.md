@@ -10,7 +10,7 @@ Bu doküman, `BIH.txt` şablonunda yer alan soruların, muayene bulgularının v
 IIH'nin en sık görülen semptomudur. Kafa içi basıncını artıran manevralarla (eğilme, öksürme, ıkınma) şiddetlenmesi, yatınca veya sabahları daha kötü olması tipiktir. Bu özellikler, ağrının artmış kafa içi basıncından (KİB) kaynaklandığını düşündürür.
 
 **GÖRME BULANIKLIĞI / IŞIK ÇAKMALARI / DİPLOPİ (ÇİFT GÖRME):**
-Bunlar, IIH'nin en endişe verici semptomlarıdır ve artmış KİB'nin optik sinire (görme siniri) bası yapmasından kaynaklanır. Görme bulanıklığı ve ışık çakmaları papilödeme (optik disk ödemi) bağlıdır. Çift görme ise genellikle 6. kranial sinir felcine bağlı olarak gelişir ve kalıcı görme kaybı için bir risk faktörüdür.
+Bunlar, IIH'nin en endişe verici semptomlarıdır ve artmış KİB'nin optik sinire (görme siniri) bası yapmasından kaynaklanır. Görme bulanıklığı ve ışık çakmaları papilödeme (optik disk ödemi) bağlıdır. Çift görme ise genellikle 6. kranial sinir felcine bağlı olarak gelişir; kalıcı görme kaybı riski esas olarak papilödem ve görme alanı kaybıyla ilişkilidir.
 
 **FOTOFOBİ / FONOFOBİ (IŞIK/SES HASSASİYETİ):**
 Şiddetli baş ağrısına sıkça eşlik eden ve KİB artışıyla ilişkili olabilen non-spesifik semptomlardır.
@@ -92,3 +92,10 @@ Lomber ponksiyon (LP) işlemi öncesi kanama riskini değerlendirmek için yapı
 
 **LP İLE BOS BASINÇ ÖLÇÜMÜ:**
 Tanıyı kesinleştiren adımdır. Hastanın yan yatar pozisyonunda ölçülen Beyin Omurilik Sıvısı (BOS) açılış basıncının yüksek (>25 cmH2O) bulunması tanıyı koydurur. Aynı zamanda bir miktar BOS alınması, geçici de olsa terapötik (tedavi edici) bir etki yaratır.
+
+---
+
+## KAYNAKLAR
+
+* Friedman DI, Liu GT, Digre KB. Revised diagnostic criteria for the pseudotumor cerebri syndrome in adults and children. *Neurology*. 2013;81(13):1159-1165.
+* Mollan SP, Davies B, Silver NC, et al. Idiopathic intracranial hypertension: consensus guidelines on management. *Journal of Neurology, Neurosurgery & Psychiatry*. 2018;89(10):1088-1100.

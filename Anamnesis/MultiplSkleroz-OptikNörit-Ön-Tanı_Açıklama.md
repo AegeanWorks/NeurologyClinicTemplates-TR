@@ -10,7 +10,7 @@ Bu doküman, `MultiplSkleroz-OptikNörit-Ön-Tanı.txt` şablonundaki soruların
 Tipik optik nörit genellikle tek taraflıdır ve saatler ile birkaç gün içinde gelişir. İki taraflı tutulum, NMOSD, MOGAD, toksik-metabolik nedenler veya sistemik otoimmün hastalık açısından daha yüksek risk taşır. Semptomların ani değil, subakut seyirli olması tipiktir.
 
 **GÖRME KAYBININ ŞİDDETİ / SEYRİ / GÖRME ALANINDA SKOTOM :**
-Tipik optik nöritte görme kaybı hafif-orta düzeydedir ve genellikle birkaç hafta içinde kendiliğinden düzelir. Derin ve kalıcı görme kaybı, ilerleyici seyir veya santral skotom, atipik optik nörit ve NMOSD/MOGAD lehinedir. Periferik görme alanı defektleri de kaydedilmelidir.
+Tipik optik nöritte görme kaybı genellikle tek taraflıdır, hafif-orta düzeyde olabilir ve çoğu olguda birkaç hafta içinde kendiliğinden düzelir. Santral skotom tipik optik nöritte sık görülür; derin ve kalıcı görme kaybı, ilerleyici seyir, iki taraflı tutulum veya altitudinal defekt ise atipik optik nörit ve NMOSD/MOGAD açısından araştırılmalıdır. Görme alanı defektinin paterni de kaydedilmelidir.
 
 **GÖZ HAREKETLERİYLE AĞRI / FOTOFOBİ :**
 Göz hareketiyle artan ağrı, optik nöritin klasik özelliğidir ve optik sinir kılıfındaki inflamasyonu düşündürür. Fotofobi de sık eşlik eder. Ağrının olmaması tanıyı dışlamaz; ancak atipik nedenleri araştırmayı gerektirir.

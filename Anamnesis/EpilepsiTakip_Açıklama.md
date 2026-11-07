@@ -54,6 +54,9 @@ Pozitif aile öyküsü ve akraba evliliği genetik epilepsileri; febril konvülz
 **SUDEP RİSKİ AÇISINDAN DANIŞMANLIK :**
 SUDEP riski genel epilepsi popülasyonunda yılda yaklaşık 1/1.000 civarındadır; jeneralize tonik-klonik nöbetler, gece nöbetleri, dirençli epilepsi ve ilaç uyumsuzluğu riski artırır. Gece nöbeti olan hastalarda yatak odasının paylaşılması, nöbet alarmı ve nöbet sonrası solunum takibi gibi önlemler konuşulmalıdır. Bu danışmanlık, kaygı yaratmak için değil, kanıta dayalı bir güvenlik planı oluşturmak için yapılır.
 
+**SÜRÜCÜLÜK / İŞ GÜVENLİĞİ / GEBELİK :**
+Son nöbet tarihi ve nöbet tipi, sürücülük ve yüksekte çalışma gibi riskli aktiviteler için ülke mevzuatına göre değerlendirilmelidir; hasta bu konuda açıkça bilgilendirilmelidir. Gebelik planlayan kadınlarda folik asit desteği ve antiepileptik ilaç seçimi erken dönemde konuşulmalı, gebelik ve emzirme döneminde ilaç düzenlemesi nöroloji ve kadın doğum ile birlikte yapılmalıdır.
+
 **EEG / GÖRÜNTÜLEME :**
 Rutin EEG tanıyı destekler; uyku EEG'si özellikle uyanıklıkta normal olan hastalarda epileptiform aktiviteyi ortaya çıkarabilir. İlk nöbet, fokal nöbet, dirençli epilepsi veya yeni nörolojik defisit varsa beyin MRG (epilepsi protokolü) önerilir.
 
