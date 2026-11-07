@@ -147,7 +147,7 @@ Eritrosit sedimantasyon hızı ve C-reaktif protein genellikle yükselir; normal
 Bu bölüm, anamnezi tamamlayan ve ikincil baş ağrısı nedenlerini dışlamaya yönelik fiziksel bulguları içerir.
 
 **SPURLING TESTİ :**
-Boyundan kaynaklanan (servikojenik) baş ağrılarını ve sinir kökü basılarını değerlendirmek için hekim tarafından rutin tarama amacıyla yapılır.
+Boyun kaynaklı (servikojenik) patolojiyi veya sinir kökü basısını gösterebilir; hekim tarafından yapılır.
 
 **NÖROLOJİK MUAYENE :**
 Kranial sinirler, motor sistem, duyu, refleksler ve koordinasyonun değerlendirilmesidir. Anamnezde şüphelenilen veya gözden kaçan nörolojik bir problemi (tümör, inme, vb.) tespit etmeyi veya dışlamayı amaçlar. Normal bir muayene, birincil baş ağrısı tanısını güçlendirir.
