@@ -10,7 +10,7 @@
 - **Total Classes**: `1`
 - **Total Top-Level Functions**: `0`
 - **Total Class Methods**: `15`
-- **Total Source Lines**: `143`
+- **Total Source Lines**: `142`
 
 ---
 
@@ -19,7 +19,7 @@
 ### [`tests/test_templates.py`](tests/test_templates.py)
 > *Regression tests for the template library's content integrity.*
 
-**Size**: `143` lines (`7075` bytes)
+**Size**: `142` lines (`7019` bytes)
 
 **Classes:**
 - `class TemplateIntegrityTests` - *Guard the file pairing and references clinicians rely on.*
