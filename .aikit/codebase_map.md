@@ -9,8 +9,8 @@
 - **Total Python Modules**: `1`
 - **Total Classes**: `1`
 - **Total Top-Level Functions**: `0`
-- **Total Class Methods**: `14`
-- **Total Source Lines**: `130`
+- **Total Class Methods**: `15`
+- **Total Source Lines**: `143`
 
 ---
 
@@ -19,7 +19,7 @@
 ### [`tests/test_templates.py`](tests/test_templates.py)
 > *Regression tests for the template library's content integrity.*
 
-**Size**: `130` lines (`6348` bytes)
+**Size**: `143` lines (`7075` bytes)
 
 **Classes:**
 - `class TemplateIntegrityTests` - *Guard the file pairing and references clinicians rely on.*
@@ -37,5 +37,6 @@
   - Method `.test_lp_note_uses_evidence_based_aftercare()`
   - Method `.test_high_risk_followups_include_safety_fields()`
   - Method `.test_clinical_claims_stay_within_evidence()`
+  - Method `.test_second_pass_safety_pins()`
 
 ---

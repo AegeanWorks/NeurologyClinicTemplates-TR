@@ -87,8 +87,8 @@ Papilödemin uzman tarafından derecelendirilmesi ve standart bir görme alanı 
 **ENDOKRİNOLOJİ KONSÜLTASYONU:**
 IIH'ye neden olabilecek hormonal bozuklukları (Cushing, hipotiroidi vb.) dışlamak ve en önemli risk faktörü olan obezite yönetimi konusunda destek almak için istenir.
 
-**LP ÖNCESİ KOAGÜLASYON TESTLERİ (INR):**
-Lomber ponksiyon (LP) işlemi öncesi kanama riskini değerlendirmek için yapılan standart bir güvenlik kontrolüdür.
+**LP ÖNCESİ KOAGÜLASYON TESTLERİ (TROMBOSİT, INR, APTT):**
+Lomber ponksiyon (LP) işlemi öncesi kanama riskini değerlendirmek için yapılan standart bir güvenlik kontrolüdür; trombosit sayısı, INR ve APTT birlikte değerlendirilmelidir.
 
 **LP İLE BOS BASINÇ ÖLÇÜMÜ:**
 Tanıyı kesinleştiren adımdır. Hastanın yan yatar pozisyonunda ölçülen Beyin Omurilik Sıvısı (BOS) açılış basıncının yüksek (>25 cmH2O) bulunması tanıyı koydurur. Aynı zamanda bir miktar BOS alınması, geçici de olsa terapötik (tedavi edici) bir etki yaratır.

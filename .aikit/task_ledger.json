@@ -5,23 +5,12 @@
     "last_phase": "verification",
     "active_phase": 4,
     "status": "in_progress",
-    "updated_at": 1794084964.0094419,
+    "updated_at": 1794085139.649979,
     "owner": "deepseek:goal",
     "started_by": "deepseek:goal",
     "continuations": []
   },
   "checkpoints": [
-    {
-      "task_id": "reforge:run-1",
-      "phase": "reforge stage 7",
-      "phase_num": 3,
-      "description": "Reforge stage 7: window 21, 3 commit(s), 21 file(s) reviewed (unreviewed), 0 finding(s), 0 repaired",
-      "files_affected": [],
-      "status": "in_progress",
-      "timestamp": 1793291967.3705814,
-      "timestamp_str": "2026-10-29 19:39:27",
-      "agent": "opencode"
-    },
     {
       "task_id": "reforge:run-1",
       "phase": "reforge stage 8",
@@ -246,6 +235,17 @@
       "status": "in_progress",
       "timestamp": 1794084964.0094419,
       "timestamp_str": "2026-11-07 23:56:04",
+      "agent": "deepseek:goal"
+    },
+    {
+      "task_id": "neurology-audit-1-to-end",
+      "phase": "verification",
+      "phase_num": 4,
+      "description": "[2/3] Second safety pass: 15 unit tests pass; aikit check 4/4; checklists: passed",
+      "files_affected": [],
+      "status": "in_progress",
+      "timestamp": 1794085139.649979,
+      "timestamp_str": "2026-11-07 23:58:59",
       "agent": "deepseek:goal"
     }
   ]

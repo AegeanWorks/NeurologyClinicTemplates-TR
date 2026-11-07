@@ -125,6 +125,19 @@ class TemplateIntegrityTests(unittest.TestCase):
             encoding="utf-8")
         self.assertNotIn("DİDERAL", tremor)
 
+    def test_second_pass_safety_pins(self):
+        headache = (ROOT / "Anamnesis" / "BaşAğrısı.txt").read_text(encoding="utf-8")
+        self.assertIn("SERVİKAL MUAYENE", headache)
+        self.assertNotIn("SPURLING TESTİ", headache)
+        bih = (ROOT / "Anamnesis" / "BIH.txt").read_text(encoding="utf-8")
+        self.assertIn("TROMBOSİT, INR, APTT", bih)
+        epilepsy = (ROOT / "Anamnesis" / "EpilepsiTakip.txt").read_text(encoding="utf-8")
+        self.assertIn("ENDİKASYONA GÖRE EEG", epilepsy)
+        self.assertNotIn("RUTİN EEG", epilepsy)
+        lp = (ROOT / "ConsultationNotes" / "LP-Uygunluk-ve-Öneriler-Notu.txt").read_text(
+            encoding="utf-8")
+        self.assertIn("INR / APTT", lp)
+
 
 if __name__ == "__main__":
     unittest.main()
