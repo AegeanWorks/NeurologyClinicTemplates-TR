@@ -3,25 +3,15 @@
   "active_task": {
     "task_id": "neurology-audit-1-to-end",
     "last_phase": "verification",
-    "active_phase": 4,
-    "status": "in_progress",
+    "active_phase": 5,
+    "status": "completed",
     "updated_at": 1794085139.649979,
     "owner": "deepseek:goal",
     "started_by": "deepseek:goal",
-    "continuations": []
+    "continuations": [],
+    "completed_at": 1794085197.0916743
   },
   "checkpoints": [
-    {
-      "task_id": "reforge:run-1",
-      "phase": "reforge stage 8",
-      "phase_num": 3,
-      "description": "Reforge stage 8: window 24, 3 commit(s), 5 file(s) reviewed (unreviewed), 0 finding(s), 0 repaired",
-      "files_affected": [],
-      "status": "in_progress",
-      "timestamp": 1793292066.0370176,
-      "timestamp_str": "2026-10-29 19:41:06",
-      "agent": "opencode"
-    },
     {
       "task_id": "reforge:run-1",
       "phase": "reforge stage 9",
@@ -246,6 +236,16 @@
       "status": "in_progress",
       "timestamp": 1794085139.649979,
       "timestamp_str": "2026-11-07 23:58:59",
+      "agent": "deepseek:goal"
+    },
+    {
+      "task_id": "neurology-audit-1-to-end",
+      "phase": "completed",
+      "phase_num": 5,
+      "description": "Task 'neurology-audit-1-to-end' completed successfully.",
+      "status": "completed",
+      "timestamp": 1794085197.0916765,
+      "timestamp_str": "2026-11-07 23:59:57",
       "agent": "deepseek:goal"
     }
   ]
